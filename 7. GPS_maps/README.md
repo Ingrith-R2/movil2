@@ -1,8 +1,6 @@
 # 📱 GPS_en tiempo real
 
 
-![Logo](Recursos/img/maps.jpeg)
-
 Pedes clonarte este reposito sin embargo para que te funcione correctamente necesitas lo siguiente:
 
 - Un entorno de desarrollo como Visual Studio Code 
@@ -106,12 +104,9 @@ Y para finalizar debes ingresar una API conseguida en google cloud
 
 Todo esto es necesario para que pueda funcionar correctamente
 
-## 🖼️ Screenshots
 
 
-![App Screenshot](Recursos/img/firebase.png)
-
-![App Screenshot](Recursos/img/appmaps.png)
+![Logo](Recursos/img/maps.jpeg)
 
 
 
