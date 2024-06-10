@@ -14,7 +14,7 @@ Pedes clonarte este reposito sin embargo para que te funcione correctamente nece
   cd "nombre del proyecto "
 ```
 
-- Instala las dependencias
+- Instalar las dependencias
 ```
   npm install
 ```
@@ -67,4 +67,4 @@ Dirígete a environments.ts y coloca tus credenciales mismas que podrás encontr
 
 
 
-![Perfil](Recursos/img_autores/3.jpg)
+
