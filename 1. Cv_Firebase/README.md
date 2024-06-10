@@ -1,4 +1,4 @@
- CV Firebase
+ñ CV Firebase
 
 En esta carpeta podrás encontrar un cv o hoja de vida, tiene navegación entre páginas mismo que te permitirá ver en diferentes páginas información diferente.
 
@@ -25,7 +25,7 @@ Pedes clonarte este reposito sin embargo para que te funcione correctamente nece
 ```
 
 - Terminado de instalar todas sus dependencias iniciaremos el servidor con el siguiente comando.
-``
+```
    ionic server o npx ng serve
 
 ```
