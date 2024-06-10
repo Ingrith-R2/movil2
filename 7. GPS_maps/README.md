@@ -1,65 +1,70 @@
-# 📦📱 GPS_Tiempo_Real
-
-
-GPS con guardado de datos en real-time-database.
-
-La aplicación web permite mostrar la ubicacion del usuario, junto con
-una representacion en maps.
-
+# 📱 GPS_Tiempo_Real
 
 ![Logo](Recursos/img/maps.jpeg)
 
-## 💻 Tecnologías
+Pedes clonarte este reposito sin embargo para que te funcione correctamente necesitas lo siguiente:
 
-**😀 Cliente:**
-Ionic - ReadME - Html - CSS - Javascript - Typescript - Android
-
-[![Tecnologías](https://simpleskill.icons.workers.dev/svg?i=ionic,readme,html5,CSS3,javascript,typescript,android)](https://skillicons.dev)
-
-**🖥️ Servidor:**
-Angular - Firebase - NPM - Javascript - Typescript - Git - Capacitor
-
-[![Tecnologías](https://simpleskill.icons.workers.dev/svg?i=angular,firebase,npm,javascript,typescript,git,capacitor)](https://skillicons.dev)
-
-## ⏬ Instalacion
-
-Clona el proyecto
-
-```bash
-  git clone https://link-to-project
+- Un entorno de desarrollo como Visual Studio Code 
+- Para este paso pondrás Ctrl+ñ y se te abrirá un terminal y empieza clonando el repositorio con este comando:
+```
+  git clone "link del proyecto"
+```
+- Ve a la carpeta del proyecto
+```
+  cd "nombre del proyecto "
 ```
 
-Ve a la carpeta del proyecto
-
-```bash
-  cd my-project
+- Instala las dependencias
 ```
-
-Instala las dependencias
-
-```bash
   npm install
 ```
 
-Inicia el servidor
-
-```bash
-  npx ng serve
+ En caso de que no se haya instalado con el comando forzaremos la instalación con el siguiente comando 
+```
+ npm install --legacy-peer-deps
 ```
 
-## 🛑 ADVERTENCIA
+- Terminado de instalar todas sus dependencias iniciaremos el servidor con el siguiente comando.
+```
+   ionic server o npx ng serve
 
-Si no tienes ionic puedes instalarlo con el siguiente comando:
+```
 
-```bash
+## 🛑 Tomar en cuenta 
+
+Que si no tienes ionic puedes instalarlo con el siguiente comando:
+
+```
   npm install -g @ionic/cli
-```
 
+```
 Recuerda la aplicacion se despliega en
 
-```bash
+
   http://localhost:4200/
+
+
+Todo esto es necesario para que pueda funcionar correctamente
+
+## Recuerda cambiar con tus credenciales del proyecto previamente creado en Firebase 
+
+Dirígete a environments.ts y coloca tus credenciales mismas que podrás encontrar en configuración del proyecto.
+
 ```
+  firebaseConfig :
+  {
+  apiKey: 'API_KEY',
+  authDomain: 'DOMINIO',
+  databaseURL: 'URL',
+  projectId: 'ID',
+  storageBucket: 'Storage',
+  messagingSenderId: 'ID_Mensaje',
+  appId: 'APP_ID',
+  measurementId: 'ID_Medida'
+  }
+```
+
+
 
 
 Para que funcione el gps se debe añadir en la carpeta src, un index.html con este codigo
