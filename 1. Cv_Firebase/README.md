@@ -8,7 +8,7 @@ Pedes clonarte este reposito sin embargo para que te funcione correctamente nece
 - Para este paso pondrás Ctrl+ñ y se te abrirá un terminal y empieza clonando el repositorio con este comando:
 ```
   git clone "link del proyecto"
-
+```
 - Ve a la carpeta del proyecto
 ```
   cd "nombre del proyecto "
