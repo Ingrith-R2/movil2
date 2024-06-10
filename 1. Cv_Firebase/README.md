@@ -1,4 +1,4 @@
-# 😀🔥 CV Firebase
+#🔥 CV Firebase
 
 En esta carpeta podrás encontrar un cv o hoja de vida, tiene navegación entre páginas mismo que te permitirá ver en diferentes páginas información diferente.
 
@@ -17,9 +17,9 @@ Pedes clonarte este reposito sin embargo para que te funcione correctamente nece
 
   npm install
 
-* En caso de que no se haya instalado con el comando formaremos la instalación con el siguiente comando 
+ En caso de que no se haya instalado con el comando forzaremos la instalación con el siguiente comando 
 
-  npm instalo --legacy-peer-deps
+  npm install --legacy-peer-deps
 
 - Terminado de instalar todas sus dependencias iniciaremos el servidor con el siguiente comando.
 
