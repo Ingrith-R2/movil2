@@ -1,68 +1,56 @@
-# 🔐🔥 Login Firebase
+Login con authentication 
 
-Un Login en realizado en Ionic que cuenta con un guardado en una base de datos en Firebase
+En esta carpeta podrás encontrar un cv o hoja de vida, tiene navegación entre páginas mismo que te permitirá ver en diferentes páginas información diferente.
 
-![Logo](Recursos/img/logo.jpg)
+Pedes clonarte este reposito sin embargo para que te funcione correctamente necesitas lo siguiente:
 
-## 💻 Tecnologías
-
-**😀 Cliente:**
-Ionic - ReadME - Html - CSS - Javascript - Typescript
-
-[![Tecnologías](https://simpleskill.icons.workers.dev/svg?i=ionic,readme,html5,CSS3,javascript,typescript)](https://skillicons.dev)
-
-**🖥️ Servidor:**
-Angular - Firebase - NPM - Javascript - Typescript - Git - Capacitor
-
-[![Tecnologías](https://simpleskill.icons.workers.dev/svg?i=angular,firebase,npm,javascript,typescript,git,capacitor)](https://skillicons.dev)
-
-## ⏬ Instalacion
-
-Clona el proyecto
-
-```bash
-  git clone https://link-to-project
+- Un entorno de desarrollo como Visual Studio Code 
+- Para este paso pondrás Ctrl+ñ y se te abrirá un terminal y empieza clonando el repositorio con este comando:
+```
+  git clone "link del proyecto"
+```
+- Ve a la carpeta del proyecto
+```
+  cd "nombre del proyecto "
 ```
 
-Ve a la carpeta del proyecto
-
-```bash
-  cd my-project
+- Instala las dependencias
 ```
-
-Instala las dependencias
-
-```bash
   npm install
 ```
 
-Inicia el servidor
-
-```bash
-  npx ng serve
+ En caso de que no se haya instalado con el comando forzaremos la instalación con el siguiente comando 
+```
+ npm install --legacy-peer-deps
 ```
 
-## 🛑 ADVERTENCIA
+- Terminado de instalar todas sus dependencias iniciaremos el servidor con el siguiente comando.
+```
+   ionic server o npx ng serve
 
-Si no tienes ionic puedes instalarlo con el siguiente comando:
+```
 
-```bash
+## 🛑 Tomar en cuenta 
+
+Que si no tienes ionic puedes instalarlo con el siguiente comando:
+
+```
   npm install -g @ionic/cli
-```
 
+```
 Recuerda la aplicacion se despliega en
 
-```bash
+
   http://localhost:4200/
-```
+
 
 Todo esto es necesario para que pueda funcionar correctamente
 
-## 🍃 Variables de Entorno
+## Recuerda cambiar con tus credenciales del proyecto previamente creado en Firebase 
 
-Para ejecutar este proyecto necesitaras dirijirte a archivo .env y colocar tus variables de entorno de la siguiente manera:
+Dirígete a environments.ts y coloca tus credenciales mismas que podrás encontrar en configuración del proyecto.
 
-```js
+```
   firebaseConfig :
   {
   apiKey: 'API_KEY',
@@ -76,26 +64,5 @@ Para ejecutar este proyecto necesitaras dirijirte a archivo .env y colocar tus v
   }
 ```
 
-## 🖼️ Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-## 👫 Autores
-
-- [@bryandelgado99](https://github.com/bryandelgado99)
-
-![Perfil](Recursos/img_autores/2.jpg)
-
-- [@Mino-Mateo](https://github.com/Mino-Mateo)
-
-![Perfil](Recursos/img_autores/1.jpg)
-
-- [@natycasillas](https://github.com/natycasillas)
-
-![Perfil](Recursos/img_autores/4.jpg)
-
-- [@DannyYanacallo1755](https://github.com/DannyYanacallo1755)
-
-![Perfil](Recursos/img_autores/3.jpg)
