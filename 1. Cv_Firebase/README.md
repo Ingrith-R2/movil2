@@ -1,5 +1,9 @@
 CV Firebase
 
+
+![image](https://github.com/Ingrith-R2/movil2/assets/117744029/b25c1ed0-2a34-44f8-af45-580adbac2ace)
+
+
 En esta carpeta podrás encontrar un cv o hoja de vida, tiene navegación entre páginas mismo que te permitirá ver en diferentes páginas información diferente.
 
 Pedes clonarte este reposito sin embargo para que te funcione correctamente necesitas lo siguiente:
