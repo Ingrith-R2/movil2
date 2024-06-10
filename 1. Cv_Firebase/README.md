@@ -6,34 +6,38 @@ Pedes clonarte este reposito sin embargo para que te funcione correctamente nece
 
 - Un entorno de desarrollo como Visual Studio Code 
 - Para este paso pondrás Ctrl+ñ y se te abrirá un terminal y empieza clonando el repositorio con este comando:
-
+```
   git clone "link del proyecto"
 
 - Ve a la carpeta del proyecto
-
+```
   cd "nombre del proyecto "
+```
 
 - Instala las dependencias
-
+```
   npm install
+```
 
  En caso de que no se haya instalado con el comando forzaremos la instalación con el siguiente comando 
-
-  npm install --legacy-peer-deps
+```
+ npm install --legacy-peer-deps
+```
 
 - Terminado de instalar todas sus dependencias iniciaremos el servidor con el siguiente comando.
-
+``
    ionic server o npx ng serve
 
+```
 
 ## 🛑 Tomar en cuenta 
 
 Que si no tienes ionic puedes instalarlo con el siguiente comando:
 
-
+```
   npm install -g @ionic/cli
 
-
+```
 Recuerda la aplicacion se despliega en
 
 
