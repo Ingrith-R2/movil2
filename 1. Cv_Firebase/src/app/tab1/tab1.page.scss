@@ -1,4 +1,4 @@
-$primary-color : #007aff;
+$primary-color : #a200ff;
 $primary-text: white;
 
 main{
@@ -19,7 +19,7 @@ main{
 
 .__col_img > img{
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 30px 80px;
 }
 
 /*Main Information*/
@@ -28,12 +28,12 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
-  height: 100vh;
+  width: 90%;
+  height: 90vh;
   border-radius: 25px 25px 0 0;
   background-color: $primary-color;
   z-index: 10;
-  top: 28%;
+  top: 16%;
   color: $primary-text;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
 
@@ -58,7 +58,7 @@ main{
 
   .__card-container{
     position: relative;
-    top: 480px;
+    top: 40px;
     height: auto;
     padding: 5px;
   }
