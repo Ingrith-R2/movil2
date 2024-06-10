@@ -1,7 +1,5 @@
 Login con authentication 
 
-En esta carpeta podrás encontrar un cv o hoja de vida, tiene navegación entre páginas mismo que te permitirá ver en diferentes páginas información diferente.
-
 Pedes clonarte este reposito sin embargo para que te funcione correctamente necesitas lo siguiente:
 
 - Un entorno de desarrollo como Visual Studio Code 
