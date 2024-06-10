@@ -1,4 +1,4 @@
-#🔥 CV Firebase
+ CV Firebase
 
 En esta carpeta podrás encontrar un cv o hoja de vida, tiene navegación entre páginas mismo que te permitirá ver en diferentes páginas información diferente.
 
@@ -46,7 +46,7 @@ Todo esto es necesario para que pueda funcionar correctamente
 
 Dirígete a environments.ts y coloca tus credenciales mismas que podrás encontrar en configuración del proyecto.
 
-```js
+```
   firebaseConfig :
   {
   apiKey: 'API_KEY',
@@ -60,9 +60,5 @@ Dirígete a environments.ts y coloca tus credenciales mismas que podrás encontr
   }
 ```
 
-## 🖼️ Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
