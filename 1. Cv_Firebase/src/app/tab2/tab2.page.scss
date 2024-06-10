@@ -1,4 +1,4 @@
-$primary-color : #007aff;
+$primary-color : #9345c0;
 $primary-text: white;
 
 ._main_container{
@@ -75,7 +75,7 @@ ion-col{
   align-items: center;
 
   & .windows_btn{
-    color: rgb(37, 116, 180);
+    color: rgb(67, 136, 124);
   }
 }
 
@@ -149,9 +149,9 @@ swiper-slide{
   }
 
   & ._hability_card{
-    background: #1488CC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #66306b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #42677c, #60b16e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4cb2b6, #91b450); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 25px;
   }
 
